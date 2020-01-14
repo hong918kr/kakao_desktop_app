@@ -47,7 +47,7 @@ Semantic has meaning such as <header>
 Non-Semantic has no meaning such as <div> -->
 
 <!-- #2-7 -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -67,6 +67,101 @@ Non-Semantic has no meaning such as <div> -->
       </header>
     </div>
   </body>
-</html>
+</html> -->
 
 <!-- id is unique, but class can use as an object , reuse anywhere you want -->
+
+<!-- #3-3
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mixin' CSS and HTML</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetor</p>
+    <a href="#"> Fake link</a>
+  </body>
+</html> -->
+
+<!-- #3-4
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Box Model</title>
+    <style>
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+        background-color: green;
+        height: 100%;
+      }
+      .box {
+        background-color: yellow;
+        width: 50%;
+        height: 50%;
+        padding: 20px 10px 5px 2px;
+      }
+      .inside-box {
+        background-color: blue;
+        width: 50%;
+        height: 50%;
+        border: 5px dashed red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="inside-box"></div>
+    </div>
+  </body>
+</html> -->
+
+<!-- #3-5
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Inline Example</title>
+    <style>
+      .box {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </body>
+</html> -->
+
+<!-- #3-6 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Position</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box-child"></div>
+  </body>
+</html>
